@@ -19,6 +19,7 @@
         android:layout_alignParentBottom="true" >
 
         <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_indicator"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -27,7 +28,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:tabIndicatorHeight="true" />
+            app:tabIndicatorHeight="0dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
